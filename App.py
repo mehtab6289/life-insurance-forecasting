@@ -204,7 +204,7 @@ def render_card(page):
 
         if page_exists(page["file"]):
             st.page_link(
-                page["file"],
+           page["file"],
                 label="Open page",
 
                 use_container_width=True,
